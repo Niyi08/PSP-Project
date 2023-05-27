@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ventas Online - Tecnologia</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Ventas Online - Tecnología</h1>
+
+  <div class="productos">
+    <h2>Productos</h2>
+    <ul id="listaProductos">
+      <li data-id="1" data-nombre="Laptop" data-precio="1500000">$1.500.000 - Laptop <button onclick="agregarProducto(this)">Agregar</button></li>
+      <li data-id="2" data-nombre="Smartphone" data-precio="800000">$800.000 - Smartphone <button onclick="agregarProducto(this)">Agregar</button></li>
+      <li data-id="3" data-nombre="Tablet" data-precio="500000">$500.000 - Tablet <button onclick="agregarProducto(this)">Agregar</button></li>
+      <li data-id="4" data-nombre="Smart watch" data-precio="200000">$200.000 - Smart watch <button onclick="agregarProducto(this)">Agregar</button></li>
+    </ul>
+  </div>
+
+  <div class="carrito">
+    <h2>Carrito de Compras</h2>
+    <table id="tablaCarrito">
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Total</th>
+        <th>Acciones</th>
+      </tr>
+    </table>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
